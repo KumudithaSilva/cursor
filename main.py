@@ -15,9 +15,6 @@ class demo:
     def greet(self):
         print("hello " + self.name)
 
-    def __del__(self):
-        print("destructor called")
-
 
 if __name__ == "__main__":
     d = demo("John")
